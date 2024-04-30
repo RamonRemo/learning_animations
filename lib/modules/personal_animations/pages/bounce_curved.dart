@@ -11,6 +11,7 @@ class BounceCurved extends StatefulWidget {
 // aqui aprendi um pouco sobre como adicionar curves a uma animaçao feita com animationController
 class _BounceCurvedState extends State<BounceCurved>
     with SingleTickerProviderStateMixin {
+      
   late AnimationController controller = AnimationController(
       duration: const Duration(milliseconds: 200), vsync: this);
 

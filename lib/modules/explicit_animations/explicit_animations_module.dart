@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:learning_animations/modules/explicit_animations/pages/aula_1.dart';
 import 'package:learning_animations/modules/explicit_animations/pages/aula_2.dart';
 import 'package:learning_animations/modules/explicit_animations/pages/aula_3.dart';
+import 'package:learning_animations/modules/explicit_animations/pages/aula_4.dart';
 
 class ExplicitAnimationsPage extends StatelessWidget {
   const ExplicitAnimationsPage({super.key});
@@ -17,6 +18,7 @@ class ExplicitAnimationsPage extends StatelessWidget {
         ),
         body: PageView(
           children: const [
+            AnimationControllerExample4(),
             AnimationControllerExample1(),
             AnimationControllerExample2(),
             AnimationControllerExample3(),

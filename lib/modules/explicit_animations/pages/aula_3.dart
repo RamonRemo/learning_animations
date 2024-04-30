@@ -8,6 +8,8 @@ class AnimationControllerExample3 extends StatefulWidget {
       _AnimationControllerExample3State();
 }
 
+/// Tweens
+/// Uso de chain e evaluate method e criação de uma curva em um animationController
 class _AnimationControllerExample3State
     extends State<AnimationControllerExample3>
     with SingleTickerProviderStateMixin {

@@ -8,6 +8,8 @@ class AnimationControllerExample2 extends StatefulWidget {
       _AnimationControllerExample2State();
 }
 
+/// animation status listener
+/// estudo do animatedStatusListener e como criar animaçoes o utilizando
 class _AnimationControllerExample2State
     extends State<AnimationControllerExample2>
     with SingleTickerProviderStateMixin {

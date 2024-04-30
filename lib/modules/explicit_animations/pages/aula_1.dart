@@ -8,6 +8,7 @@ class AnimationControllerExample1 extends StatefulWidget {
       _AnimationControllerExample1State();
 }
 
+/// animation controller
 class _AnimationControllerExample1State
     extends State<AnimationControllerExample1>
     with SingleTickerProviderStateMixin {

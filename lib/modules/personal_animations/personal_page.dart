@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learning_animations/modules/personal_animations/bounce_curved.dart';
+import 'package:learning_animations/modules/personal_animations/pages/bounce_curved.dart';
 
 class PersonalPage extends StatelessWidget {
   const PersonalPage({super.key});
