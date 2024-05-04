@@ -3,6 +3,8 @@ import 'package:learning_animations/modules/explicit_animations/pages/aula_1.dar
 import 'package:learning_animations/modules/explicit_animations/pages/aula_2.dart';
 import 'package:learning_animations/modules/explicit_animations/pages/aula_3.dart';
 import 'package:learning_animations/modules/explicit_animations/pages/aula_4.dart';
+import 'package:learning_animations/modules/explicit_animations/pages/aula_5.dart';
+import 'package:learning_animations/modules/explicit_animations/pages/aula_6.dart';
 
 class ExplicitAnimationsPage extends StatelessWidget {
   const ExplicitAnimationsPage({super.key});
@@ -18,10 +20,13 @@ class ExplicitAnimationsPage extends StatelessWidget {
         ),
         body: PageView(
           children: const [
+            SlideSomething(),
+            ScaleSomething(),
+            AnimatedBuilderExample5(),
             AnimationControllerExample4(),
-            AnimationControllerExample1(),
-            AnimationControllerExample2(),
             AnimationControllerExample3(),
+            AnimationControllerExample2(),
+            AnimationControllerExample1(),
           ],
         ),
       ),

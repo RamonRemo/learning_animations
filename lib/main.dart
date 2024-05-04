@@ -32,8 +32,8 @@ class MyHomePage extends StatelessWidget {
       body: PageView(
         scrollDirection: Axis.vertical,
         children: const [
-          PersonalPage(),
           ExplicitAnimationsPage(),
+          PersonalPage(),
         ],
       ),
     );
